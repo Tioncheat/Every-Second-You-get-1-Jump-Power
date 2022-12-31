@@ -8,6 +8,10 @@ local Player = game.Players.LocalPlayer
 local Mouse = Player:GetMouse()
 
 local MM = library:CreateWindow("Main Menu")
+local Credits = library:CreateWindow("Credits")
+
+Credits:Section("Script by")
+Credits:Section("Tion_D#6044")
 
 MM:Section("-=Popular Scripts=-")
 
